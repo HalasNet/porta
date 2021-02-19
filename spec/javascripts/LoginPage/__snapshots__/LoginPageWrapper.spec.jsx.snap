@@ -126,7 +126,11 @@ exports[`should not render reset password button when disablePasswordReset is tr
                           type="hidden"
                           value="✓"
                         />
-                        <CSRFToken />
+                        <CSRFToken>
+                          <input
+                            type="hidden"
+                          />
+                        </CSRFToken>
                       </HiddenInputs>
                       <TextField
                         inputProps={
@@ -533,7 +537,11 @@ exports[`should render Login form and Authentication providers when available 1`
                           type="hidden"
                           value="✓"
                         />
-                        <CSRFToken />
+                        <CSRFToken>
+                          <input
+                            type="hidden"
+                          />
+                        </CSRFToken>
                       </HiddenInputs>
                       <TextField
                         inputProps={
@@ -1175,7 +1183,11 @@ exports[`should render itself 1`] = `
                           type="hidden"
                           value="✓"
                         />
-                        <CSRFToken />
+                        <CSRFToken>
+                          <input
+                            type="hidden"
+                          />
+                        </CSRFToken>
                       </HiddenInputs>
                       <TextField
                         inputProps={
@@ -1604,7 +1616,11 @@ exports[`should render reset password button when disablePasswordReset is false 
                           type="hidden"
                           value="✓"
                         />
-                        <CSRFToken />
+                        <CSRFToken>
+                          <input
+                            type="hidden"
+                          />
+                        </CSRFToken>
                       </HiddenInputs>
                       <TextField
                         inputProps={
